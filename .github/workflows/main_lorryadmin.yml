@@ -53,6 +53,6 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'DevOpsWebAppDemo02'
-        slot-name: 'production'
+        #slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_1538a531dbcc4d7782d71767e45a1009 }}
         package: .
